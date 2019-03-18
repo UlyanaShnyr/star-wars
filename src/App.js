@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import Container from './components/Container';
-import List from './components/List';
+
+
 
 import axios from 'axios';
 import './App.css';
+import Description from './components/Description';
 
 
 class App extends Component { 
@@ -39,7 +41,7 @@ componentDidMount(){
       <div className="container-fluid">
       <div className="row">
         <Navbar />
-        <Container people={people}/>               
+        <Container people={people}/>
       </div>
      
   </div>
