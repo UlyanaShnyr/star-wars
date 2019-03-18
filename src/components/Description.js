@@ -33,7 +33,7 @@ this.setState({
               
                 <span className="btn btn-primary" onClick={this.close}>
                 
-               <p>Gender:{inf.gender}</p>
+                   <p>Gender:{inf.gender}</p>
                     <p>Birth date:{inf.birth_year}</p>
                     <p>Height:{inf.height}</p>
                     <p>Mass:{inf.mass}</p>                   
